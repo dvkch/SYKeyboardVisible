@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80AD85219A7E01E00286844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80AD85119A7E01E00286844 /* Foundation.framework */; };
+		F80AD85419A7E01E00286844 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80AD85319A7E01E00286844 /* CoreGraphics.framework */; };
+		F80AD85619A7E01E00286844 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80AD85519A7E01E00286844 /* UIKit.framework */; };
+		F80AD85C19A7E01E00286844 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F80AD85A19A7E01E00286844 /* InfoPlist.strings */; };
+		F80AD85E19A7E01E00286844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F80AD85D19A7E01E00286844 /* main.m */; };
+		F80AD86219A7E01E00286844 /* SYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F80AD86119A7E01E00286844 /* SYAppDelegate.m */; };
+		F80AD86B19A7E01E00286844 /* SYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80AD86A19A7E01E00286844 /* SYViewController.m */; };
+		F80AD88B19A7E05900286844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80AD88919A7E05900286844 /* Main.storyboard */; };
+		F80AD88F19A7E2B700286844 /* SYKeyboardVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = F80AD88E19A7E2B700286844 /* SYKeyboardVisible.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F80AD84E19A7E01E00286844 /* SYKeyboardVisibleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYKeyboardVisibleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80AD85119A7E01E00286844 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F80AD85319A7E01E00286844 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F80AD85519A7E01E00286844 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F80AD85919A7E01E00286844 /* SYKeyboardVisibleExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SYKeyboardVisibleExample-Info.plist"; sourceTree = "<group>"; };
+		F80AD85B19A7E01E00286844 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F80AD85D19A7E01E00286844 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F80AD85F19A7E01E00286844 /* SYKeyboardVisibleExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYKeyboardVisibleExample-Prefix.pch"; sourceTree = "<group>"; };
+		F80AD86019A7E01E00286844 /* SYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYAppDelegate.h; sourceTree = "<group>"; };
+		F80AD86119A7E01E00286844 /* SYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYAppDelegate.m; sourceTree = "<group>"; };
+		F80AD86919A7E01E00286844 /* SYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYViewController.h; sourceTree = "<group>"; };
+		F80AD86A19A7E01E00286844 /* SYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYViewController.m; sourceTree = "<group>"; };
+		F80AD87319A7E01E00286844 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F80AD88A19A7E05900286844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F80AD88D19A7E2B700286844 /* SYKeyboardVisible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYKeyboardVisible.h; sourceTree = "<group>"; };
+		F80AD88E19A7E2B700286844 /* SYKeyboardVisible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYKeyboardVisible.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80AD84B19A7E01E00286844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80AD85419A7E01E00286844 /* CoreGraphics.framework in Frameworks */,
+				F80AD85619A7E01E00286844 /* UIKit.framework in Frameworks */,
+				F80AD85219A7E01E00286844 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80AD84519A7E01E00286844 = {
+			isa = PBXGroup;
+			children = (
+				F80AD88C19A7E2A700286844 /* SYKeyboardVisible */,
+				F80AD85719A7E01E00286844 /* SYKeyboardVisibleExample */,
+				F80AD85019A7E01E00286844 /* Frameworks */,
+				F80AD84F19A7E01E00286844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80AD84F19A7E01E00286844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80AD84E19A7E01E00286844 /* SYKeyboardVisibleExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80AD85019A7E01E00286844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F80AD85119A7E01E00286844 /* Foundation.framework */,
+				F80AD85319A7E01E00286844 /* CoreGraphics.framework */,
+				F80AD85519A7E01E00286844 /* UIKit.framework */,
+				F80AD87319A7E01E00286844 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F80AD85719A7E01E00286844 /* SYKeyboardVisibleExample */ = {
+			isa = PBXGroup;
+			children = (
+				F80AD88919A7E05900286844 /* Main.storyboard */,
+				F80AD86019A7E01E00286844 /* SYAppDelegate.h */,
+				F80AD86119A7E01E00286844 /* SYAppDelegate.m */,
+				F80AD86919A7E01E00286844 /* SYViewController.h */,
+				F80AD86A19A7E01E00286844 /* SYViewController.m */,
+				F80AD85819A7E01E00286844 /* Supporting Files */,
+			);
+			path = SYKeyboardVisibleExample;
+			sourceTree = "<group>";
+		};
+		F80AD85819A7E01E00286844 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F80AD85919A7E01E00286844 /* SYKeyboardVisibleExample-Info.plist */,
+				F80AD85A19A7E01E00286844 /* InfoPlist.strings */,
+				F80AD85D19A7E01E00286844 /* main.m */,
+				F80AD85F19A7E01E00286844 /* SYKeyboardVisibleExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F80AD88C19A7E2A700286844 /* SYKeyboardVisible */ = {
+			isa = PBXGroup;
+			children = (
+				F80AD88D19A7E2B700286844 /* SYKeyboardVisible.h */,
+				F80AD88E19A7E2B700286844 /* SYKeyboardVisible.m */,
+			);
+			name = SYKeyboardVisible;
+			path = ../SYKeyboardVisible;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80AD84D19A7E01E00286844 /* SYKeyboardVisibleExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80AD88319A7E01E00286844 /* Build configuration list for PBXNativeTarget "SYKeyboardVisibleExample" */;
+			buildPhases = (
+				F80AD84A19A7E01E00286844 /* Sources */,
+				F80AD84B19A7E01E00286844 /* Frameworks */,
+				F80AD84C19A7E01E00286844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYKeyboardVisibleExample;
+			productName = SYKeyboardVisibleExample;
+			productReference = F80AD84E19A7E01E00286844 /* SYKeyboardVisibleExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80AD84619A7E01E00286844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Syan;
+			};
+			buildConfigurationList = F80AD84919A7E01E00286844 /* Build configuration list for PBXProject "SYKeyboardVisibleExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80AD84519A7E01E00286844;
+			productRefGroup = F80AD84F19A7E01E00286844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80AD84D19A7E01E00286844 /* SYKeyboardVisibleExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80AD84C19A7E01E00286844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80AD88B19A7E05900286844 /* Main.storyboard in Resources */,
+				F80AD85C19A7E01E00286844 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80AD84A19A7E01E00286844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80AD86B19A7E01E00286844 /* SYViewController.m in Sources */,
+				F80AD88F19A7E2B700286844 /* SYKeyboardVisible.m in Sources */,
+				F80AD86219A7E01E00286844 /* SYAppDelegate.m in Sources */,
+				F80AD85E19A7E01E00286844 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F80AD85A19A7E01E00286844 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80AD85B19A7E01E00286844 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F80AD88919A7E05900286844 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F80AD88A19A7E05900286844 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F80AD88119A7E01E00286844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80AD88219A7E01E00286844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80AD88419A7E01E00286844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SYKeyboardVisibleExample/SYKeyboardVisibleExample-Prefix.pch";
+				INFOPLIST_FILE = "SYKeyboardVisibleExample/SYKeyboardVisibleExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F80AD88519A7E01E00286844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SYKeyboardVisibleExample/SYKeyboardVisibleExample-Prefix.pch";
+				INFOPLIST_FILE = "SYKeyboardVisibleExample/SYKeyboardVisibleExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80AD84919A7E01E00286844 /* Build configuration list for PBXProject "SYKeyboardVisibleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80AD88119A7E01E00286844 /* Debug */,
+				F80AD88219A7E01E00286844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80AD88319A7E01E00286844 /* Build configuration list for PBXNativeTarget "SYKeyboardVisibleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80AD88419A7E01E00286844 /* Debug */,
+				F80AD88519A7E01E00286844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80AD84619A7E01E00286844 /* Project object */;
+}
