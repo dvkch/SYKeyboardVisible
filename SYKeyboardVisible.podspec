@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Singleton to determine if the keyboard is currently visible'
   s.homepage = 'https://github.com/dvkch/SYKeyboardVisible'
   s.author   = { 'Stan Chevallier' => 'contact@stanislaschevallier.fr' }
-  s.source   = { :git => 'https://github.com/dvkch/SYKeyboardVisible.git' }
+  s.source   = { :git => 'https://github.com/dvkch/SYKeyboardVisible.git', :tag => s.version.to_s }
   s.source_files = 'SYKeyboardVisible/SYKeyboardVisible.{h,m}'
   s.requires_arc = true
 
